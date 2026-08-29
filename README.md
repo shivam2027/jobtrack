@@ -71,7 +71,6 @@ cd jobtrack
 # Install backend dependencies
 cd server
 npm install
-cp .env.example .env   # then set a real JWT_SECRET
 
 # Install frontend dependencies
 cd ../client
